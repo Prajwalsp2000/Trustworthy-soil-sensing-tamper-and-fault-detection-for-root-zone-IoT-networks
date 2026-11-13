@@ -1,0 +1,6 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+# Versions used to produce the reported results (Python 3.12 and 3.13):
+# numpy 2.4.4, pandas 3.0.2, scikit-learn 1.8.0, matplotlib 3.10.8
