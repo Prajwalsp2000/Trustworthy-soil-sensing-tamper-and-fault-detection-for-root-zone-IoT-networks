@@ -1,0 +1,27 @@
+{
+  "v2_all_tiers_us_per_row_batch": 5.455761046962537,
+  "q_tier": 0.9975,
+  "python": "3.12.3",
+  "machine": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+  "args": {
+    "met": "/mnt/user-data/uploads/MetompkinFarm_WC_ST_SC_220719-240723.csv",
+    "cris": "/mnt/user-data/uploads/CrisfieldFarm_WC_ST_SC_210714-240711.csv",
+    "out": "results_v2d",
+    "seeds": 3,
+    "severities": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "n_per_type": 6,
+    "quantile": 0.99,
+    "persist": 2,
+    "exclude_met": [
+      "VFMS-SP-S"
+    ],
+    "roll_days": 14.0,
+    "only_site": null,
+    "no_figs": false
+  },
+  "runtime_s": 628.8440835475922
+}
